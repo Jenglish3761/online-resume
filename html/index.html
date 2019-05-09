@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="keywords" content="Jeffrey English, jeffrey, english">
+		<meta name="author" content="Jeffrey English">
+		<meta name="description" content="Jeffrey English - Student of Electronics Engineering">
+		<meta name="og:title" content="Jeffrey Resume">
+		<meta name="og:image" content="img/logo.png">
+		<title>Jeffrey Resume</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body class="border">
+		<header>
+			<div class="navigation">
+				<nav>
+					
+					<ul class="centered">
+						<li class="hmenu">
+							<div class="dropdown">
+								<span>Navigation</span>
+						
+								<div class="dropdown-content">
+									<a class="menu" href="#top" id="navtop" title="Top">TOP</a>
+									<a class="menu" href="#about" id="navabout" title="About">ABOUT</a>
+									<a class="menu" href="#projects" id="navprojects" title="Projects">PROJECTS</a>
+									<a class="menu" href="#contact" id="navcontact" title="Contact">CONTACT</a>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</nav>
+				
+			</div>
+		</header>
+		<section id="top">
+			<h1 class="myname">Jeffrey<br/>English</h1>
+			<hr>
+		</section>
+		<section id="about">
+			<h2>About Me</h2>
+				<p>I currently am finishing a 4 year CEAB accredited Electronics Systems Engineering (ESE) program at Conestoga College in Kitchener, ON. 
+				Here I work with digital and analog electronics, embedded systems, software, signal processing, and wireless communication systems.</p>
+				<p>I enjoy working with my hands and completeing projects I can be proud of</p>
+				<p>In my personal time I enjoy hobby electronic projects, guitar & music, and the outdoors</p>
+			<br/><hr>
+		</section>
+		<section id="projects">
+			<h2>My Projects</h2>
+				<h3>Barbell PI</h3>
+					<p>The Barbell PI project is a fitness accesory designed to track the bar path of complex exercises in order to give feedback to the user</p>
+					
+					<p>It uses a 9DOF inertial measurement unit to track acceleration and orientation from there it performs double integration to find relative position. 
+					After this step the processed data is sent to the user's smartphone where the data can be seen graphically</p>
+					
+					<embed class="proj-img" src="doc/cap.pdf" type="application/pdf" alt="capstone design">
+					
+					<p>This is my 4th year capstone project and is still in progress...</p>
+					
+				<br/>
+				<h3>Physio aid</h3>
+					<p>The physiotherapy aid project was a look into wearable technology and prototyping using a sensor given to us by the teachers at random during my 2nd year. My team
+					received a magnetic displacement sensor which takes the relative angle of a magnetic field and outputs a sine wave voltage. </p>
+					<p>With this information we brainstormed a device to benifit physio patients and therapists by helping show correct range of motion in an exercise. 
+					This was done by using the sensor on one side of a joint and a magnet on the other, 
+					when the patient bends the joint the angle would change and we could alert the user when the have completed a full range of motion.</p>
+					<video class="proj-img" controls muted>
+						<source src="vid/proof.mp4" type="video/mp4">
+					</video>
+					
+					<p>The prototype used a simple brace with with sensor and magnet attached to it. When the exercise was being performed the user would be signalled by 3 LEDS on the
+					brace for when they reached certain angles of joint flexion.</p>
+				<br/>	
+				<h3>Elevator</h3>
+					<p>The overall project plan was to build and control an elevator, leveraging the use of a CAN bus communications environment,
+					coupled with networked systems to create a means of tracking the elevators operational/diagnostic data.
+					The elevator cars position and status must also be viewable to computers over the Internet.</p>
+					<img class="proj-img" src="img/elevator.png"/><br/>
+					<p>The languages used for the programs were: Python, HTML, JavaScript, PHP, MySQL, CSS</p>
+					<span>You can view our code on GitHub linked </span><a href="https://github.com/Jenglish3761/Project-VI">here.</a>
+					
+			<br/><br/><hr>
+		</section>
+		<section id="work">
+			<h2>Work Experience</h2>
+				<p>If you are interested in what I can offer you or your company please contact me using any of the following info:</p>
+				
+				<br/><br/><hr>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+				<p>If you are interested in what I can offer you or your company please contact me using any of the following info:</p>
+				<a href="https://www.linkedin.com/in/jeffreyenglish-ese/" target="_blank">
+					<img class="contact-img" src="img/linkedin.png"/>
+				</a>
+				<a href="https://github.com/Jenglish3761/" target="_blank">
+					<img class="contact-img" src="img/github.png"/>
+				</a>
+				<br/>
+				<span>Email: </span> <a href="mailto:jeff.english.ese@gmail.com">jeff.english.ese@gmail.com</a>
+		</section>
+	
+	</body>
+	<footer>
+		<br/>
+		<hr>
+		
+		<span> &copy </span>
+		<script type="text/javascript">
+			document.write(new Date().getFullYear());
+		</script>
+		<span>Jeffrey English</span>
+		
+	</footer>
+
+</html>
